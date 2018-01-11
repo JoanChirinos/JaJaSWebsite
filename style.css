@@ -10,7 +10,7 @@ body {
         1px -1px #000,
         -1px 1px #000,
         -1px -1px #000;
-    font-size: 80px;
+    font-size: 150px;
 }
 
 .by {
@@ -18,13 +18,13 @@ body {
 }
 
 .desc {
-    color: white;
+    color: orange;
     text-shadow:
         1px 1px #000,
         -1px 1px #000,
         1px -1px #000,
         -1px -1px #000;
-    font-size: 20px;
+    font-size: 30px;
     width: 90%;
 }
 
