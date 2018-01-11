@@ -1,7 +1,7 @@
 body {
     background: rgb(220, 255, 255);
     background: linear-gradient(rgb(255, 200, 150), rgb(200, 255, 150)); /* Standard syntax */
-    font-family: "Comic Sans MS", sans-serif;
+    font-family: "Georgia", "Comic Sans MS", sans-serif;
 }
 
 .jajas {
