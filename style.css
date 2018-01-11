@@ -1,0 +1,29 @@
+body {
+    background-color: azure;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.jajas {
+    color: rgba(170, 255, 170, 0.9);
+    text-shadow:
+        1px 1px #000,
+        1px -1px #000,
+        -1px 1px #000,
+        -1px -1px #000;
+    font-size: 80px;
+}
+
+.by {
+    font-size: 12px;
+}
+
+.desc {
+    color: white;
+    text-shadow:
+        1px 1px #000,
+        -1px 1px #000,
+        1px -1px #000,
+        -1px -1px #000;
+    font-size: 20px;
+    width: 90%;
+}
