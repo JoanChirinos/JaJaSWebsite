@@ -4,7 +4,6 @@ cgitb.enable()
 def load():
     print 'Content-type: text/html\n\n'
     first = """
-    <!DOCTYPE html>
     <html>
 
         <head>
@@ -54,7 +53,9 @@ def load():
                         <input type="submit" name="submit" value="Search!">
                     </form>
                 </div>
-            </div>"""
+            </div>
+    """
+    
     second = """
         </body>
 
