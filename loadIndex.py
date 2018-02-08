@@ -5,6 +5,7 @@ import cgitb
 cgitb.enable()
 
 def load():
+    print 'Content-type: text/html\n\n'
     first = """
     <html>
 
