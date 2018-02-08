@@ -60,6 +60,7 @@ def load():
 
     </html>
     """
-    print first + second
+    print first
+    print second
     
 load();
