@@ -1,6 +1,7 @@
 #! /usr/bin/python
 
-import cgi, cgitb
+import cgi
+import cgitb
 cgitb.enable()
 
 def load():
