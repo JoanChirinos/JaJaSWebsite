@@ -3,6 +3,12 @@
 
     <head>
         <title>JaJaS</title>
+        
+        <script type="text/javascript">
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                window.location.replace("noMobile.html");
+            }
+        </script>
     
         <link href="base.css" rel="stylesheet" type="text/css">
         <link href="indexstyle.css" rel="stylesheet" type="text/css">
