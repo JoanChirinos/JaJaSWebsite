@@ -63,4 +63,4 @@ def load():
     print first
     print second
     
-load();
+load()
