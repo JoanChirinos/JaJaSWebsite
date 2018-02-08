@@ -1,14 +1,4 @@
-#! /usr/bin/python
-
-import cgi
-import cgitb
-cgitb.enable()
-
-def load():
-    print 'Content-type: text/html\n\n'
-    first = """
-    <html>
-
+<html>
         <head>
             <title>JaJaS</title>
 
@@ -59,14 +49,6 @@ def load():
                     </form>
                 </div>
             </div>
-    """
-    
-    second = """
         </body>
 
     </html>
-    """
-    print first
-    print second
-    
-load()
