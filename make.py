@@ -23,9 +23,9 @@ def opensaveclose(fileName):
     straw = open(fileName, "rU")
     data = straw.read()
     straw.close()
-    straw = open(fileName, "w+")
-    straw.write(data)
-    straw.close()
+    straww = open(fileName, "w+")
+    straww.write(data)
+    straww.close()
     return data
 
 go()
