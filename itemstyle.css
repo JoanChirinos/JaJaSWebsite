@@ -6,8 +6,8 @@
     display: inline-block;
     float: left;
     padding: 10px;
-    width: 33vw;
-    height: 40vh;
+    max-width: 33vw;
+    max-height: 40vh;
 }
 
 .itemDetailsWrapper {
