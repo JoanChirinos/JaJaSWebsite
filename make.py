@@ -6,9 +6,9 @@ cgitb.enable()
 
 def go():
     print 'Content-type: text/html\n\n'
-    html = opensaveclose("itemPageTemplate.html")
+    html = openclose("itemPageTemplate.html")
     what = "Small_Pot"
-    itemData = opensaveclose("itemFiles/items.csv").split("\n")
+    itemData = openclose("itemFiles/items.csv").split("\n")
     for s in itemData:
         if s[:len(what)] == what:
             itemData = s.replace("_", " ").split(",")
@@ -19,13 +19,10 @@ def go():
     html = html.replace("IMAGENAME", itemData[3])
     print html
     
-def opensaveclose(fileName):
+def openclose(fileName):
     straw = open(fileName, "rU")
     data = straw.read()
     straw.close()
-    straww = open(fileName, "w+")
-    straww.write(data)
-    straww.close()
     return data
 
 go()

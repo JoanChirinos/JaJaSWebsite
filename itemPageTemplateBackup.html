@@ -1,0 +1,69 @@
+<html>
+        <head>
+            <title>JaJaS</title>
+
+            <script type="text/javascript">
+                if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                    window.location.replace("noMobile.html");
+                }
+            </script>
+
+            <link href="base.css" rel="stylesheet" type="text/css">
+            <link href="itemstyle.css" rel="stylesheet" type="text/css">
+
+            <meta charset="UTF-8">
+            
+            <link rel="icon" href="favicon.ico" >
+
+            <meta name="description" content="Garden Shop">
+
+            <meta name="author" content="Joan Chirinos">
+            <meta name="author" content="Aaron Li">
+            <meta name="author" content="Johnny Wong">
+
+            <meta name="viewport" content="width=device-width, initial-scale-1.0">
+
+            <!-- Linking to Google's jQuery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        </head>
+
+        <body>
+
+            <div class="titleWrapper">
+                <center><h1><a href="index.html" class="title">JaJaS Gardening Shop</a></h1></center>
+            </div>
+            <div class="navBarWrapper">
+                <div class="dropdown">
+                    <button class="dropbtn">Categories</button>
+                    <div class="dropdown-content">
+                        <a href="#">Add</a>
+                        <a href="#">Categories</a>
+                        <a href="#">Here</a>
+                    </div>
+                </div>
+                <div class="searchBar">
+                    <form action="/search.py">
+                        Search:&nbsp;
+                        <input class="searchBox" type="text" name="searchInput" placeholder="Search terms"/>
+                        <input type="submit" name="submit" value="Search!">
+                    </form>
+                </div>
+            </div>
+            <br/>
+            
+            <!-- Below, item stuf will be inserted -->
+            
+            <div class="itemRow">
+                <img src="itemFiles/IMAGENAME" class="itemImage">
+                <div class="itemDetailsWrapper">
+                    <h1>ITEMNAME</h1>
+                    <p class="price">ITEMPRICE</p>
+                    <p class="itemDetails">ITEMDETAILS</p>
+                </div>
+            </div>
+            
+            <!--------------------------------------->
+            
+            
+    </body>
+</html>
