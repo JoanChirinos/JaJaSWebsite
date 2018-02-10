@@ -1,0 +1,19 @@
+.itemRow {
+    height: 60vh;
+}
+
+.itemImage {
+    display: inline-block;
+    float: left;
+    padding: 10px
+}
+
+.itemDetailsWrapper {
+    display: inline-block;
+    height: 60vh;
+    padding: 10px;
+}
+
+.price {
+    font-family: monospace;
+}

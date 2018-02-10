@@ -1,0 +1,19 @@
+.itemRow {
+    display: flex;
+}
+
+.item {
+    display: inline-block;
+    width: 33vw;
+    color: black;
+}
+
+.item img {
+    width: 28vw;
+    height: 40vh;
+}
+
+.item a {
+    text-decoration: none;
+    color: black;
+}
