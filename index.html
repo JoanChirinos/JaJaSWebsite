@@ -25,14 +25,6 @@
 
             <!-- Linking to Google's jQuery -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-            <script>
-                function copyToClipboard() {
-                    var copyText = document.getElementById("emailcopy");
-                    copyText.select();
-                    document.execCommand("Copy");
-                    alert("Our email was copied into your clipboard!");
-                }
-            </script>
         </head>
 
         <body>
@@ -92,8 +84,19 @@
             
             <!-- Below will go the footer beggin kiddos to sell their products on our website -->
             
+            <!-- Email copy script -->
+            <script>
+                document.getElementById("input").
+                
+                function copyToClipboard() {
+                    var copyText = document.getElementById("input");
+                    copyText.select();
+                    document.execCommand("Copy");
+                    alert("Copied email to clipboard!");
+                }
+            </script>
             <div class="footer">
-                <center><p class="contact">Contact us at <span id="email">JaJaSLaunch@gmail.com</span> for general concerns and business inquiries <button id="emailcopy" value="JaJaSLaunch@gmail.com" onClick="copyToClipboard()">Copy Email</button></p></center>
+                <center><p class="contact">Contact us at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=JaJaSLaunch@gmail.com&su=JaJaS%20Gardening%20Store%20Inquiry" style="color: white;" target="_blank">JaJaSLaunch@gmail.com</a> for general concerns and business inquiries</p></center>
             </div>
             
         </body>
