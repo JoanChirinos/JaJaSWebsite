@@ -89,6 +89,27 @@ body {
 
 /* Here ends the copy-paste of Joan's old code */
 
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 5vh;
+    background-color: #333;
+}
+
+.contact {
+    color: white;
+}
+
+#email {
+    color: cornsilk;
+}
+
+#email:hover {
+    color: white;
+}
+
 /*
 Palette
     green: #8CB567

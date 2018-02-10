@@ -25,6 +25,14 @@
 
             <!-- Linking to Google's jQuery -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script>
+                function copyToClipboard() {
+                    var copyText = document.getElementById("emailcopy");
+                    copyText.select();
+                    document.execCommand("Copy");
+                    alert("Our email was copied into your clipboard!");
+                }
+            </script>
         </head>
 
         <body>
@@ -80,6 +88,12 @@
                         </div>
                     </center>
                 </a>
+            </div>
+            
+            <!-- Below will go the footer beggin kiddos to sell their products on our website -->
+            
+            <div class="footer">
+                <center><p class="contact">Contact us at <span id="email">JaJaSLaunch@gmail.com</span> for general concerns and business inquiries <button id="emailcopy" value="JaJaSLaunch@gmail.com">Copy Email</button></p></center>
             </div>
             
         </body>
